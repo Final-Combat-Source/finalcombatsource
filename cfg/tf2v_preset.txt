@@ -1,0 +1,2 @@
+tf2c_force_stock_weapons 0
+exec qol2010.txt

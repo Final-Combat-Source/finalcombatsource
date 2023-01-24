@@ -1,0 +1,2 @@
+exec launch_preset.txt
+mapcyclefile mapcycle_stock.txt

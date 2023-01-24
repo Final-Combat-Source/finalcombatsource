@@ -1,0 +1,5 @@
+tf2c_building_hauling 0
+tf2c_building_upgrades 0
+tf2v_airblast 0
+tf2c_airblast_players 0
+tf2c_force_stock_weapons 1

@@ -1,0 +1,2 @@
+exec tf2v_preset.txt
+mapcyclefile mapcycle_custom.txt

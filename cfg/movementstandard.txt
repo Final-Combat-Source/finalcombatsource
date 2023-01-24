@@ -1,0 +1,5 @@
+tf2c_autojump "0"
+tf2c_bunnyjump_max_speed_factor "1.20"
+tf2c_duckjump "0"
+tf2c_groundspeed_cap "1"
+sv_airaccelerate "10"

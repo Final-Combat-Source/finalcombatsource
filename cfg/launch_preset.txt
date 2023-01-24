@@ -1,0 +1,2 @@
+tf2c_force_stock_weapons 1
+exec qol2007.txt

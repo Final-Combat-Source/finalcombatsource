@@ -1,0 +1,2 @@
+tf_damage_disablespread 1
+tf_use_fixed_weaponspreads 1
