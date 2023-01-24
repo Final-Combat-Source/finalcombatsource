@@ -1,0 +1,31 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "emotion"
+  {
+    event expression "mad"
+    {
+      time 0.000000 4.230000
+      param "player\heavy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.1727 1.0000
+        4.0658 1.0000
+      }
+    }
+  }
+  channel "animation"
+  {
+    event sequence "Boxing Taunt"
+    {
+      time 0.000000 4.233333
+      param "taunt05"
+      fixedlength
+    }
+  }
+}
+
+fps 60
+snap off
+ignorePhonemes off
