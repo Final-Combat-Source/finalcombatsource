@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\items/medkit_overheal"
+	"$selfillum" "1"
+	"$selfillummask" 	"models\items/item_selfillum"
+}
