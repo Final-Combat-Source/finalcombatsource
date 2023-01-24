@@ -1,0 +1,56 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/items/spy/spy_camera_beard.vtf"
+	"$bumpmap" "models/effects/flat_normal" 
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+	"$yellow" "0"
+
+ 	"$blendtintbybasealpha" "1"
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$color2" "{40 36 24}"
+	 
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+
+		{
+			"resultVar" "$colortint_tmp"
+		}
+
+		{
+
+
+
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+
+		}
+	}
+}
