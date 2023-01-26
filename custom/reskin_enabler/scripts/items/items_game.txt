@@ -439,7 +439,13 @@
 					"attribute_class"	"mult_postfiredelay"
 					"value"	".25"
 				}
+				
 
+			}
+			"attributes"
+			{
+				
+				
 			}
 		}
 		"weapon_rocketlauncher"
@@ -1380,11 +1386,22 @@
 			"image_inventory"	"backpack/weapons/c_models/c_rocketboots_soldier"
 			"attributes"
 			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
 				"rocket jump damage reduction"
 				{
 					"attribute_class"	"rocket_jump_dmg_reduction"
 					"value"	".4"
 				}
+				
 			}
 		}
 		"weapon_sledgehammer"
@@ -1876,6 +1893,20 @@
 			"prefab"	"weapon_bat"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_bat.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"1"
@@ -1884,6 +1915,20 @@
 			"prefab"	"weapon_bottle"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_bottle.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"2"
@@ -1892,6 +1937,20 @@
 			"prefab"	"weapon_fireaxe"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_fireaxe.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"3"
@@ -1900,6 +1959,20 @@
 			"prefab"	"weapon_club"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_machete.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"4"
@@ -1915,6 +1988,20 @@
 			"name"	"TF_WEAPON_FISTS"
 			"prefab"	"weapon_fists"
 			"attach_to_hands" "0"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"6"
@@ -1923,6 +2010,20 @@
 			"prefab"	"weapon_shovel"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_shovel.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"7"
@@ -1931,6 +2032,20 @@
 			"prefab"	"weapon_wrench"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_wrench.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"8"
@@ -1939,6 +2054,20 @@
 			"prefab"	"weapon_bonesaw"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_bonesaw.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"9"
@@ -1947,6 +2076,20 @@
 			"prefab"	"weapon_shotgun"
 			"baseitem"	"1"
 			"item_slot"	"primary"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"engineer"	"1"
@@ -1962,6 +2105,20 @@
 			"attach_to_hands" "0"
 			"model_player"	"models/weapons/v_models/v_shotgun_soldier.mdl"
 			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"soldier"	"1"
@@ -1977,6 +2134,20 @@
 			"attach_to_hands" "0"
 			"model_player"	"models/weapons/v_models/v_shotgun_heavy.mdl"
 			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"heavy"	"1"
@@ -1992,6 +2163,20 @@
 			"attach_to_hands" "0"
 			"model_player"	"models/weapons/v_models/v_shotgun_pyro.mdl"
 			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"pyro"	"1"
@@ -2003,6 +2188,20 @@
 			"prefab"	"weapon_scattergun"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_scattergun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"14"
@@ -2011,6 +2210,15 @@
 			"prefab"	"weapon_sniperrifle"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_sniperrifle.mdl"
+			"attributes"
+			{
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"15"
@@ -2019,6 +2227,20 @@
 			"prefab"	"weapon_minigun"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_minigun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"16"
@@ -2027,6 +2249,20 @@
 			"prefab"	"weapon_smg"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_smg.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"17"
@@ -2035,6 +2271,20 @@
 			"prefab"	"weapon_syringegun"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_syringegun.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"18"
@@ -2074,6 +2324,20 @@
 			"name"	"TF_WEAPON_PISTOL"
 			"prefab"	"weapon_pistol"
 			"baseitem"	"1"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"engineer"	"1"
@@ -2085,6 +2349,20 @@
 			"prefab"	"weapon_pistol"
 			"baseitem"	"1"
 			"hidden"	"1"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"used_by_classes"
 			{
 				"scout"	"1"
@@ -2096,6 +2374,20 @@
 			"prefab"	"weapon_revolver"
 			"attach_to_hands" "0"
 			"model_world"	"models/weapons/w_models/w_revolver.mdl"
+			"attributes"
+			{
+				"use hitlocations"
+				{
+					"attribute_class"	"use_hit_locations"
+					"value" "1"
+				}
+				"mini crit on headshot"
+				{
+					"attribute_class"	"minicrit_on_headshot"
+					"value"	"1"
+				}
+				
+			}
 			"baseitem"	"1"
 		}
 		"25"
@@ -8148,6 +8440,26 @@
 			"description_format"	"value_is_additive"
 			"description_string"	"#Attrib_GunslingerPunchCombo"
 			"effect_type"	"positive"
+		}
+		"2050"
+		{
+			"name"	"use hitlocations"
+			"attribute_class"	"use_hit_locations"
+			"description_string"	"#Attrib_HitLocations"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"2051"
+		{
+			"name"	"mini crit on headshot"
+			"attribute_class"	"minicrit_on_headshot"
+			"description_string"	"#Attrib_MiniCrit_Headshot"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
 		}
 		"10001"
 		{
